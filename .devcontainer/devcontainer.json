@@ -1,0 +1,23 @@
+{
+    "name": "Odoo Development",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "odoo",
+    "workspaceFolder": "/mnt/extra-addons",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "visualstudioexptteam.vscodeintellicode",
+                "formulahendry.code-runner",
+                "odoo-workspace.odoo-snippets",
+                "trinhanhngoc.vscode-odoo"
+            ]
+        }
+    },
+    "settings": {
+        "python.linting.enabled": true,
+        "python.formatting.provider": "black",
+        "editor.formatOnSave": true
+    }
+}

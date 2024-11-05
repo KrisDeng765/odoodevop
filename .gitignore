@@ -1,0 +1,44 @@
+# Odoo specific
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+eggs
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
+__pycache__
+
+# Logs
+logs/
+*.log
+
+# Environment specific
+.env
+.venv
+env/
+venv/
+
+# IDE specific
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Docker specific
+.docker/
+
+# Odoo data
+data/
+addons/*
+!addons/.gitkeep
+
+# PostgreSQL data
+postgresql/
